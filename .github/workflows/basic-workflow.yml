@@ -43,6 +43,6 @@ jobs:
 
   deployment:
     runs-on: ubuntu-latest
-    environment: production
+    environment: DEV
     steps:
       - run: echo Hello, from the Deployment!
