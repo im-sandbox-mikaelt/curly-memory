@@ -45,6 +45,7 @@ jobs:
         with:
           repository: im-sandbox-mikaelt/hello-doe-composite-action
           path: ./.github/actions/hello-doe-composite-action
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Run a composite
         uses: ./.github/actions/hello-doe-composite-action
